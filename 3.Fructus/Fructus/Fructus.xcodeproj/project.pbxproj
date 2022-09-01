@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297EB08128C13ACF004EFE8F /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB08028C13ACF004EFE8F /* SettingsRowView.swift */; };
 		2997E33828BAE62900CBADB0 /* FructusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2997E33728BAE62900CBADB0 /* FructusApp.swift */; };
 		2997E33A28BAE62900CBADB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2997E33928BAE62900CBADB0 /* ContentView.swift */; };
 		2997E33C28BAE62B00CBADB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2997E33B28BAE62B00CBADB0 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297EB08028C13ACF004EFE8F /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		2997E33428BAE62900CBADB0 /* Fructus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fructus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2997E33728BAE62900CBADB0 /* FructusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusApp.swift; sourceTree = "<group>"; };
 		2997E33928BAE62900CBADB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2997E37328BC1AC400CBADB0 /* SourceLinkView.swift */,
 				2997E37B28BC3EAE00CBADB0 /* FruitNutrientView.swift */,
 				2997E38328BC51D900CBADB0 /* SettingsLabelView.swift */,
+				297EB08028C13ACF004EFE8F /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				2997E36C28BBF1CF00CBADB0 /* FruitData.swift in Sources */,
 				2997E37428BC1AC400CBADB0 /* SourceLinkView.swift in Sources */,
+				297EB08128C13ACF004EFE8F /* SettingsRowView.swift in Sources */,
 				2997E36228BBDA2000CBADB0 /* FruitCardView.swift in Sources */,
 				2997E36E28BC121E00CBADB0 /* FruitRowView.swift in Sources */,
 				2997E36428BBEC9A00CBADB0 /* StartButtonView.swift in Sources */,
