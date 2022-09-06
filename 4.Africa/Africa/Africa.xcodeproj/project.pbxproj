@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29712A1F28C3F12800CACB29 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29712A1E28C3F12800CACB29 /* CoverImageModel.swift */; };
+		29712A2228C3F25A00CACB29 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29712A2128C3F25A00CACB29 /* CodableBundleExtension.swift */; };
+		29712A2428C3FF0D00CACB29 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29712A2328C3FF0D00CACB29 /* AnimalListItemView.swift */; };
+		29712A2628C4003200CACB29 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29712A2528C4003200CACB29 /* AnimalModel.swift */; };
 		297EB08F28C1470F004EFE8F /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB08E28C1470F004EFE8F /* AfricaApp.swift */; };
 		297EB09128C1470F004EFE8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB09028C1470F004EFE8F /* ContentView.swift */; };
 		297EB09328C14711004EFE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297EB09228C14711004EFE8F /* Assets.xcassets */; };
@@ -29,9 +33,14 @@
 		297EB0BF28C14AE1004EFE8F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB0BE28C14AE1004EFE8F /* MapView.swift */; };
 		297EB0C128C14AEF004EFE8F /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB0C028C14AEF004EFE8F /* GalleryView.swift */; };
 		297EB0C328C14AFB004EFE8F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB0C228C14AFB004EFE8F /* MainView.swift */; };
+		297EB0C628C3EEB6004EFE8F /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297EB0C528C3EEB6004EFE8F /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29712A1E28C3F12800CACB29 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		29712A2128C3F25A00CACB29 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		29712A2328C3FF0D00CACB29 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		29712A2528C4003200CACB29 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		297EB08B28C1470F004EFE8F /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		297EB08E28C1470F004EFE8F /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		297EB09028C1470F004EFE8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +65,7 @@
 		297EB0BE28C14AE1004EFE8F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		297EB0C028C14AEF004EFE8F /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		297EB0C228C14AFB004EFE8F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		297EB0C528C3EEB6004EFE8F /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoverImageView.swift; path = Africa/App/CoverImageView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29712A1D28C3F11500CACB29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29712A1E28C3F12800CACB29 /* CoverImageModel.swift */,
+				29712A2528C4003200CACB29 /* AnimalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29712A2028C3F24B00CACB29 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29712A2128C3F25A00CACB29 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		297EB08228C1470F004EFE8F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +115,9 @@
 		297EB08D28C1470F004EFE8F /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				29712A2028C3F24B00CACB29 /* Extension */,
+				29712A1D28C3F11500CACB29 /* Model */,
+				297EB0C428C3EEA0004EFE8F /* View */,
 				297EB0BA28C149F0004EFE8F /* Info.plist */,
 				297EB0B128C14912004EFE8F /* Data */,
 				297EB09C28C148BD004EFE8F /* Video */,
@@ -145,6 +175,15 @@
 				297EB0C228C14AFB004EFE8F /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		297EB0C428C3EEA0004EFE8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				297EB0C528C3EEB6004EFE8F /* CoverImageView.swift */,
+				29712A2328C3FF0D00CACB29 /* AnimalListItemView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +271,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				297EB09128C1470F004EFE8F /* ContentView.swift in Sources */,
+				29712A2428C3FF0D00CACB29 /* AnimalListItemView.swift in Sources */,
 				297EB0C328C14AFB004EFE8F /* MainView.swift in Sources */,
+				297EB0C628C3EEB6004EFE8F /* CoverImageView.swift in Sources */,
+				29712A1F28C3F12800CACB29 /* CoverImageModel.swift in Sources */,
+				29712A2628C4003200CACB29 /* AnimalModel.swift in Sources */,
 				297EB0BF28C14AE1004EFE8F /* MapView.swift in Sources */,
 				297EB08F28C1470F004EFE8F /* AfricaApp.swift in Sources */,
 				297EB0BD28C14AD4004EFE8F /* VideoListView.swift in Sources */,
 				297EB0C128C14AEF004EFE8F /* GalleryView.swift in Sources */,
+				29712A2228C3F25A00CACB29 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
