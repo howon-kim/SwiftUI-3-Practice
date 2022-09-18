@@ -1,0 +1,17 @@
+//
+//  TouchdownApp.swift
+//  Touchdown
+//
+//  Created by Howon Kim on 9/18/22.
+//
+
+import SwiftUI
+
+@main
+struct TouchdownApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
