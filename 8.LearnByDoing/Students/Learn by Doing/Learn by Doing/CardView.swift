@@ -15,7 +15,7 @@ struct CardView: View {
     @State private var moveDownward: Bool = false
     @State private var moveUpward: Bool = false
     @State private var showAlert: Bool = false
-    
+
     // MARK: - CARD
     var body: some View {
         ZStack{
